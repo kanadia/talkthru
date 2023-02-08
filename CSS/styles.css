@@ -132,13 +132,10 @@
 /* ----------- Information Cards ----------- */
 
 .info-cards {
-    /* align-content: center; */
     display: flex;
     flex-direction: row;
     flex-grow: 1;
-    /* flex-wrap: wrap; */
     gap: 4rem;
-    /* justify-content: center; */
     margin-bottom: 4rem;
 }
 
@@ -159,14 +156,7 @@
     font-weight: 400;
     letter-spacing: -0.2rem;
     line-height: 68px;
-    /* width: fit-content;
-    height: fit-content; */
 }
-
-/* .info h3 {
-    margin: 0;
-    text-align: center;
-} */
 
 .info img {
     min-width: 4.5rem;
@@ -181,9 +171,7 @@
     background-color: #376F91;
     border: none;
     color: white;
-    /* display: inline-block; */
     font-size: 1.4rem;
-    /* max-width: 10rem; */
     padding: 0.5rem 2rem;
     width: 100%;
 }
@@ -196,7 +184,6 @@
 
 .heading-grid {
     align-content: center;
-    /* background-color: powderblue; */
     display: flex;
     flex-direction: row;
     gap: 4rem;
@@ -206,7 +193,6 @@
 
 .heading {
     align-content: center;
-    /* background-color: lightslategrey; */
     column-gap: 3rem;
     display: grid;
     grid-template-columns: auto auto;
@@ -220,21 +206,15 @@
 /* ------------------------------ Therapist Cards ------------------------------ */
 
 .cards-grid {
-    /* background-color: powderblue; */
     align-content: center;
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
     gap: 4rem;
     justify-content: center;
     margin-bottom: 4rem;
 }
 
 .mycard {
-    /* align-content: center;
-    column-gap: 3rem;
-    display: grid;
-    grid-template-columns: auto auto; */
     width: 50%;
 }
 
@@ -260,6 +240,16 @@
     height: 8em;
     float: left;
     margin-right: 1rem;
+}
+
+.yellow-star {
+    color: gold;
+    font-size: 1.2rem;
+}
+
+.position-relative a {
+    color: #28566E;
+    text-decoration: none;
 }
 
 .box h3 {
@@ -418,7 +408,23 @@
     .sidebar a {
         display: block;
         font-size: 0.8rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        text-align: center;
     }
+
+    .sidebar a:hover {
+        margin-right: 0;
+        padding-right: 1rem;
+    }
+
+    a img {
+        display: block;
+        width: 18%;
+        position: relative;
+        left: 2.3rem;
+      }
 
     .icon {
         font-size: 20rem;
